@@ -4,7 +4,7 @@ A simple customizable password generator for the command line. Generate strong, 
 
 ## Running Locally
 
-After cloning the repo in any of your prefered IDE. Run ### npm
+After cloning the repo in any of your prefered IDE. Run ## npm
 
 ```sh
 npm install
@@ -14,4 +14,4 @@ Then, run the application in the command line using the keyword "generate".
 
 ## License
 
-- MIT © [cslam07](https://twitter.com/CSALam12/)
+- MIT © 
