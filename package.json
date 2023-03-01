@@ -1,0 +1,28 @@
+{
+  "name": "password-gen-cli",
+  "version": "1.0.0",
+  "description": "A simple customizable password generator for the command line. Generate strong, random passwords with options for length, inclusion of numbers and symbols, and more. Copy generated password to your clipboard or save them to a file for safe keeping.",
+  "main": "password-generator.js",
+  "bin": {
+    "generate": "./password-generator.js",
+    "generatePassword": "./password-generator.js"
+  },
+  "scripts": {
+    "start": "nodemon password-generator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "AbdulTech",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "cli-alert-msg": "^1.0.0",
+    "clipboardy": "^3.0.0",
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
